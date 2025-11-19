@@ -1,3 +1,5 @@
+import './SideBar.css';
+
 const SideBar = () => {
   return (
     <aside className="sidebar-container">
