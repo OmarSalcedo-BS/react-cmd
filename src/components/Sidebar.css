@@ -1,7 +1,18 @@
+:root {
+    --amarillo-principal: #FFCB05;
+    --azul-principal: #2A75BB;
+    --Rojo-Naranja: #C7001E;
+}
+
 .sidebar-container {
     width: 20%;
     height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
+    background-color: var(--azul-principal);
+    color: var(--amarillo-principal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

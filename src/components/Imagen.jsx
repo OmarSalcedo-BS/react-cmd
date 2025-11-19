@@ -1,9 +1,17 @@
 import './Imagen.css';
 
-const Imagen = () => {
+const Imagen = ({ imagen }) => {
   return (
-   <img src="" alt="" />
-  )
+    <>
+      <div class="stack">
+        <div class="card">
+          <div class="image">
+            <img src={imagen} alt="" />
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
 
 export default Imagen
